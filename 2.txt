@@ -11,5 +11,7 @@ B c = new B();
 
 a.addListener(b);// brand new comment 0
 a.addListener(c);// brand new comment 0
+a.addListener(b);//update in git_1
+a.addListener(c);//update in git_1
 
 a.doSomething(); //ќба объекта b и c выполн€ют doEvent
