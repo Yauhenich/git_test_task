@@ -9,7 +9,7 @@ A a = new A();
 B b = new B();
 B c = new B();
 
-a.addListener(b);
-a.addListener(c);
+a.addListener(b);//update in git_1
+a.addListener(c);//update in git_1
 
 a.doSomething(); //ќба объекта b и c выполн€ют doEvent
