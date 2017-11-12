@@ -2,19 +2,14 @@ interface AListener {
   public void doEvent();
 }
 
-interface BListener {
-  public void doThis();
-}
-
 class A {
   AListener listeners[]; 
   public void addListener(AListener listener) {
-    //запоминаем listener
-	//длЯ дальнейшего использованиЯ
+    //Запоминаем listener
   }
 
   public void doSomething(){
-    //делаем что-то о чем требуется оповестить всех слушателей
+    //Делаем что-то о чем требуется оповестить всех слушателей
     for( int i = 0; i < listeners.length; i++ ) {
       listeners[i].doEvent(); //class A не знает кто его слушает
     }
