@@ -2,8 +2,8 @@ interface AListener {//cange this
   public void doEvent();//cange this
 }
 
-interface BListener {
-  public void doThis();
+interface BListener {//change it
+  public void doThis();//change it
 }
 
 class A {
