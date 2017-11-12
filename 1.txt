@@ -10,11 +10,11 @@ class A {
   AListener listeners[]; 
   public void addListener(AListener listener) {
     //запоминаем listener
-	//длЯ дальнейшего использованиЯ
+	//для дальнейшего использования
   }
 
   public void doSomething(){
-    //делаем что-то о чем требуется оповестить всех слушателей
+    //делаем что-то о чем требуетс оповестить всех слушателей
     for( int i = 0; i < listeners.length; i++ ) {
       listeners[i].doEvent(); //class A не знает кто его слушает
     }
