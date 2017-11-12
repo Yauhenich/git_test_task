@@ -1,5 +1,5 @@
-interface AListener {
-  public void doEvent();
+interface AListener {//cange this
+  public void doEvent();//cange this
 }
 
 interface BListener {
