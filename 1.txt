@@ -2,6 +2,10 @@ interface AListener {
   public void doEvent();
 }
 
+interface BListener {
+  public void doThis();
+}
+
 class A {
   AListener listeners[]; 
   public void addListener(AListener listener) {
