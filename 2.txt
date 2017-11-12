@@ -1,0 +1,15 @@
+class B implements AListener {
+  public void doEvent(){
+    //Что-то случилось в классе A
+  }
+}
+
+//...
+A a = new A();
+B b = new B();
+B c = new B();
+
+a.addListener(b);
+a.addListener(c);
+
+a.doSomething(); //Оба объекта b и c выполняют doEvent
