@@ -9,7 +9,7 @@ A a = new A();
 B b = new B();
 B c = new B();
 
-a.addListener(b);
-a.addListener(c);
+a.addListener(b);// brand new comment 0
+a.addListener(c);// brand new comment 0
 
 a.doSomething(); //ќба объекта b и c выполн€ют doEvent
